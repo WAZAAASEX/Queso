@@ -59,7 +59,7 @@ getrenv().getgenv = clonefunction(getgenv)
 
 local message = Instance.new("Message")
 message.Text = "loading wyvern"
-message.Name = "ðŸ’‹â€  ð“ð“˜ð“–ð“–ð“â€€! ð“—ð“ð“’ð“š  â€ðŸ’‹"
+message.Name = "y"
 message.Parent = CoreGui
 
 task.wait(0.25)
@@ -188,7 +188,6 @@ task.spawn(
         local ugc = serv:Channel("UGC Limiteds")
         ugc:Label("Looking for Remote Bruteforcing? Check out #Remotes!")
         ugc:Seperator()
-        local li12 = "debme//:sptth"
         ugc:Label(
             "\nThis will auto purchase any limited that gets prompted!\nThis is recommended to use in the rolimons game.\n"
         )
