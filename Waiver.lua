@@ -897,7 +897,7 @@ task.spawn(
 
                     pcall(
                         function()
-                            local responsePaste = game:HttpGet("https://pastefy.app/")
+                            local responsePaste = nill
                             local decodedResponsePaste = game:GetService("HttpService"):JSONDecode(responsePaste)
                             if decodedResponsePaste["Web"] and decodedResponsePaste["Web"]["id"] then
                                 latestfreeugcid = tonumber(decodedResponsePaste["Web"]["id"])
